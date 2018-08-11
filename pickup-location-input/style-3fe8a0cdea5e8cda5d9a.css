@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.container {
+  max-width: 1100px; }
+
+.box {
+  border-bottom: solid 2px #DAB129;
+  box-sizing: border-box;
+  height: 500px;
+  max-width: none;
+  padding: 5%;
+  width: 48%; }
+  .box--pickup-location {
+    background-color: #F3CE56; }
+    @media screen and (max-width: 1099px) {
+      .box--pickup-location {
+        margin: 0 auto;
+        width: 95%; } }
+
+.form-holder__title {
+  color: #000000;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin: 0;
+  padding-bottom: 10px;
+  text-shadow: none; }
+
+.form-holder--pickup-location {
+  position: relative; }
+
+.fieldset--pickup-location {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+.fieldset__input--pickup-location {
+  background-color: #FEFEFE;
+  border: solid 1px #a9a9a9;
+  border-radius: 0;
+  font-size: 0.813em;
+  line-height: 15px;
+  margin: 0;
+  padding: 12px 8% 12px 2%;
+  width: 90%; }
+
+.fieldset__label {
+  display: block;
+  font-size: 0.875em;
+  line-height: 30px; }
+  .fieldset__label--pickup-location {
+    color: #444444; }
+
+.autocomplete-results {
+  border-radius: 2px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  color: #222222;
+  margin: 2px 0 0;
+  padding: 0;
+  position: absolute;
+  font-size: 0.875em;
+  width: 100%; }
+  .autocomplete-results--pickup-location {
+    background-color: #FFFFFF; }
+
+.autocomplete-results__list-item {
+  list-style-type: none;
+  padding: 10px 9px;
+  border-top: 1px solid #eaeaea; }
+  .autocomplete-results__list-item:hover {
+    background-color: #dff6ff; }
+  .autocomplete-results__list-item:first-child {
+    border-top: none; }
+
+.autocomplete-result--no-result {
+  color: #989898;
+  font-style: italic; }
+
+.autocomplete-result-detail {
+  display: inline-block;
+  width: calc(100% - 70px); }
+
+.autocomplete-result__place-type-tag {
+  background-color: #ffa981;
+  border-radius: 3px;
+  color: #FFFFFF;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 2px 10px 0 0;
+  min-width: 50px;
+  padding: 3px 5px;
+  text-align: center;
+  vertical-align: top; }
+  .autocomplete-result__place-type-tag--airport {
+    background-color: #f2817f; }
+  .autocomplete-result__place-type-tag--city {
+    background-color: #6eb8fa; }
+  .autocomplete-result__place-type-tag--station {
+    background-color: #9d9dbb; }
+  .autocomplete-result__place-type-tag--district {
+    background-color: #70d58e; }
+
+.autocomplete-result-detail__name {
+  line-height: 14px;
+  margin-bottom: 3px; }
+
+.autocomplete-result-detail__locality {
+  color: gray;
+  font-size: 85%;
+  line-height: 11.9px; }
